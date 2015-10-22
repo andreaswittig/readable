@@ -3,13 +3,6 @@
  * Globals
  *
  */
-/* Links */
-a,
-a:focus,
-a:hover {
-    color: #444;
-}
-
 h1 {
     margin: .67em 0;
     padding-top: 25px;
