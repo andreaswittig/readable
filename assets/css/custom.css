@@ -48,7 +48,9 @@ body {
     text-align: center;
 }
 
-a {
+a,
+a:focus,
+a:hover {
     text-decoration: none;
 }
 
