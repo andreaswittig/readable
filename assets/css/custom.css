@@ -48,6 +48,10 @@ body {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 
 .site-wrapper {
@@ -233,7 +237,7 @@ code {
 }
 
 .post-foot-right a {
-    text-decoration: none;
+    color: #444;
 }
 
 .tag {
