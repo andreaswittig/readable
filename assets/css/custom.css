@@ -104,7 +104,7 @@ a:hover {
     font-weight: 600;
 }
 
-.masthead-brand h1 {
+.masthead-brand h2 {
     margin: 0;
     font-size: 0.8em;
     text-align: left;
@@ -112,6 +112,7 @@ a:hover {
 
 .masthead-brand img {
     width: 75px;
+    float: left;
 }
 
 .masthead-nav > li {
