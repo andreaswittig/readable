@@ -97,6 +97,19 @@ a:hover {
     margin-bottom: 10px;
 }
 
+.masthead-brand h1 {
+    margin: 0;
+    font-size: 1.2em;
+    text-align: left;
+    font-weight: 600;
+}
+
+.masthead-brand h1 {
+    margin: 0;
+    font-size: 0.8em;
+    text-align: left;
+}
+
 .masthead-brand img {
     width: 75px;
 }
