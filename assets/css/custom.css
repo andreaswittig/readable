@@ -113,6 +113,7 @@ a:hover {
 .masthead-brand img {
     width: 75px;
     float: left;
+    margin-right: 10px;
 }
 
 .masthead-nav > li {
