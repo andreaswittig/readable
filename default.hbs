@@ -44,15 +44,16 @@
     </div>
     <div class="row">
         <div class="col-lg-12">
-            <footer class="site-footer">
+            <footer class="site-footer text-muted" style="text-align: left">
                 <div class="row">
-                    <div class="col-lg-12">
-                        <a href="{{@blog.url}}/rss/"><span class="fa fa-rss"></span> Subscribe with RSS</a>
-                        <div class="text-muted">
-                            <section class="copyright"><a href="/imprint">Imprint / Impressum</a></section>
-                            <section><a href="https://cloudonaut.io">English</a> / <a href="https://cloudonauten.de">Deutsch</a></section>
-                            <section class="poweredby">Proudly published with <a href="http://ghost.org">Ghost</a></section>
-                        </div>
+                    <div class="col-md-3 col-md-offset-3">
+                        <section><span class="fa fa-rss"></span> <a href="{{@blog.url}}/rss/">Subscribe with RSS</a></section>
+                        <section class="copyright"><span class="fa fa-legal"></span> <a href="{{@blog.url}}/imprint">Imprint / Impressum</a></section>
+                        <section class="poweredby"><span class="fa fa-heart"></span> Proudly published with <a href="http://ghost.org">Ghost</a></section>
+                    </div>
+                    <div class="col-md-3">
+                        <section><span class="fa fa-database"></span> <a href="https://www.timeseries.guru/">Time series database</a></section>
+                        <section><span class="fa fa-cloud"></span> <a href="https://widdix.net/">Hire AWS experts</a></section
                     </div>
                 </div>
             </footer>
